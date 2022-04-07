@@ -9,7 +9,7 @@ with open('maze.json') as _json:
 
 output = []
 
-output_size = 7
+output_size = (len(json_data['grid']) * 2) + 1
 
 for i in range(0, output_size):
     output.append(['.'] * output_size)
