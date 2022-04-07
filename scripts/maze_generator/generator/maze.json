@@ -1,0 +1,81 @@
+{
+  "end_point": [
+    0,
+    0
+  ],
+  "grid": [
+    [
+      {
+        "e": false,
+        "n": true,
+        "s": true,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": false,
+        "n": true,
+        "s": true,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": true,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": false
+      }
+    ],
+    [
+      {
+        "e": true,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": false,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": true,
+        "visited": true,
+        "w": false
+      }
+    ],
+    [
+      {
+        "e": false,
+        "n": false,
+        "s": true,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": false,
+        "n": false,
+        "s": true,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": true,
+        "n": true,
+        "s": true,
+        "visited": true,
+        "w": false
+      }
+    ]
+  ],
+  "start_point": [
+    1,
+    0
+  ]
+}
