@@ -62,7 +62,9 @@ for row_index, row in enumerate(output):
                         output_rows += f'<td width="26" height="26" bgcolor="#000000">&nbsp;</td>'
                     else:
                         if r_index == row_index and c_index == cell_index:
-                            output_rows += '<td align="center"><font color="##0fbf4d">&block;</font></td>'
+                            output_rows += '<td align="center"><font color="#048531">&block;</font></td>'
+                        elif r_index == 15 and c_index == 15:
+                            output_rows += f'<td align="center"><font color="#ff6666">$</font></td>'
                         elif r_index == x_plus and c_index == cell_index and output[x_plus][cell_index] != 'x':
                             output_rows += f'<td align="center"><a href="{x_plus}x{cell_index}.html"><font color="#449999">v</font></a></td>'
                         elif r_index == x_minus and c_index == cell_index and output[x_minus][cell_index] != 'x':
@@ -75,8 +77,12 @@ for row_index, row in enumerate(output):
                             output_rows += f"<td></td>"
                 output_rows += '</tr>'
 
-            with open(f'../../../site/positions/{row_index}x{cell_index}.html', 'w') as _pos:
-                _pos.write(chrome.substitute(rows=output_rows))
+            if row_index == 14 and cell_index == 15:
+                # Don't overwrite the manual ending screen
+                pass
+            else:
+                with open(f'../../../site/positions/{row_index}x{cell_index}.html', 'w') as _pos:
+                    _pos.write(chrome.substitute(rows=output_rows))
 
         print(f"{cell}", end="")
     print()
