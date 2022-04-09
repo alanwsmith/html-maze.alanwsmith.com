@@ -79,8 +79,8 @@ if __name__ == "__main__":
 
 
     g = Generator()
-    g.end_point = (0,0)
-    g.setup_grid(3, 3)
+    g.end_point = (7,7)
+    g.setup_grid(8, 8)
     g.add_cell_to_stack(g.end_point[0], g.end_point[1])
     while len(g.stack) > 0:
         g.process_stack()
