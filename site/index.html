@@ -1,172 +1,392 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Another Website Of Alan</title>
-    <meta property="og:title" content="Another Website Of Alan" />
-    <meta name="twitter:title" content="Another Website Of Alan" />
-
-    <meta property="og:url" content="https://static-template.alanwsmith.com/" />
-
-    <meta name="description" content="Code to make a web page" />
-    <meta property="og:description" content="Code that makes a web page" />
-
-    <meta
-      property="og:image"
-      content="https://static-template.alanwsmith.com/og-images/main.png"
-    />
-    <meta
-      name="twitter:image"
-      content="https://static-template.alanwsmith.com/og-images/main.png"
-    />
-
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:creator" content="@theidofalan" />
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/favicons/16x16.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/favicons/32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="/favicons/96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="128x128"
-      href="/favicons/128x128.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="196x196"
-      href="/favicons/196x196.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="228x228"
-      href="/favicons/228x228.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="152x152"
-      href="/favicons/152x152.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="167x167"
-      href="/favicons/167x167.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="180x180"
-      href="/favicons/180x180.png"
-    />
-
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        min-height: 100vh;
-        display: grid;
-        grid-template-rows: auto 1fr auto;
-      }
-      header {
-        padding-top: 18px;
-        padding-bottom: 4px;
-        width: 100%;
-        max-width: 64ch;
-        margin: 0 auto;
-        border-bottom: 1px solid #888;
-      }
-      main {
-        width: 100%;
-        max-width: 64ch;
-        margin: 0 auto;
-      }
-      footer {
-        width: 100%;
-        max-width: 64ch;
-        margin: 0 auto;
-        text-align: center;
-        margin-top: 60px;
-        padding-bottom: 12px;
-        font-size: 0.9rem;
-      }
-      a {
-        text-decoration: none;
-      }
-      .pallet1 {
-        background-color: #6b705c;
-        color: #ffe8d6;
-      }
-      .pallet1 a {
-        color: #b7b7a4;
-      }
-      .pallet1 footer {
-        color: #a5a58d;
-      }
-    </style>
-
-    <script type="text/javascript">
-      function doStuff() {
-        console.log('doing stuff')
-      }
-      document.addEventListener('DOMContentLoaded', doStuff)
-    </script>
+    <title>Maze Test</title>
   </head>
-  <body>
-    <script type="text/javascript">
-      document.body.className = 'pallet1'
-    </script>
+  <body bgcolor="#444444">
     <header>
-      <a href="https://www.alanwsmith.com/">alanwsmith.com</a> ~
-      <a href="https://links.alanwsmith.com">links</a> ~
-      <a href="https://podcast.alanwsmith.com/">podcast</a>
+      <center>
+        <table>
+          <tr>
+            <td>
+              <font color="#ffffff">
+                <a href="https://www.alanwsmith.com/"
+                  ><font color="#ffffff">alanwsmith.com</font></a
+                >
+                ~
+                <a href="https://links.alanwsmith.com"
+                  ><font color="#ffffff">links</font></a
+                >
+                ~
+                <a href="https://podcast.alanwsmith.com/"
+                  ><font color="#ffffff">podcast</font></a
+                >
+              </font>
+            </td>
+          </tr>
+        </table>
+      </center>
+      <center>
+        <table bgcolor="#888888" width="100%">
+          <tr>
+            <td>
+              <center>
+                <strong>
+                  This is an experiment to create a maze with pure HTML<br />
+                  There&apos;s no JavaScript, CSS, or images. Just some
+                  deprecated HTML tags<br />As of April, 2022, it works on
+                  Chrome, Firefox, and Safari on a Mac. You&apos;re milage may
+                  vary<br />
+                  Inspired by
+                  <a
+                    href="https://twitter.com/whitep4nth3r/status/1510568114966171649"
+                    >this tweet</a
+                  >
+                  from
+                  <a href="https://twitter.com/whitep4nth3r">whitep4nth3r</a>
+                </strong>
+              </center>
+            </td>
+          </tr>
+        </table>
+      </center>
+      <br />
+      <br />
     </header>
     <main>
-      <h1>Static Starter</h1>
-      <ul>
-        <li>
-          This page is a basic starter HTML Template for use without frameworks
-        </li>
-        <li>
-          Right now, it&apos;s focused on the favicons and Open Graph (OG)
-          Images in the &lt;head&gt; of the document
-        </li>
-        <li>It has a sticky footer that's done with 'grid-template-rows'</li>
-        <li>
-          A script sets the style for the body tag which sets the color. (More
-          will be added over time)
-        </li>
-      </ul>
-      <p>
-        <a href="https://github.com/alanwsmith/static-template.alanwsmith.com"
-          >Source code</a
-        >
-      </p>
+      <center>
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td align="center"><font color="#048531">&block;</font></td>
+            <td align="center">
+              <a href="/positions/1x2.html"
+                ><font color="#449999">&gt;</font></a
+              >
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td align="center">
+              <a href="/positions/2x1.html"><font color="#449999">v</font></a>
+            </td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td align="center"><font color="#ff6666">$</font></td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+            <td width="26" height="26" bgcolor="#000000">&nbsp;</td>
+          </tr>
+        </table>
+      </center>
     </main>
-    <footer>
-      made by <a href="https://twitter.com/TheIdOfAlan">alan w. smith</a>
-      <br />
-      who has a <a href="https://www.alanwsmith.com">website</a> and a
-      <a href="https://podcast.alanwsmith.com/">podcast</a> <br />
-      among other <a href="https://links.alanwsmith.com">things</a>
-    </footer>
   </body>
 </html>
