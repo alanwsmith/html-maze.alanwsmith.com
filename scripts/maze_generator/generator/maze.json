@@ -6,7 +6,7 @@
   "grid": [
     [
       {
-        "e": false,
+        "e": true,
         "n": true,
         "s": false,
         "visited": true,
@@ -17,7 +17,35 @@
         "n": true,
         "s": false,
         "visited": true,
+        "w": true
+      },
+      {
+        "e": false,
+        "n": true,
+        "s": true,
+        "visited": true,
         "w": false
+      },
+      {
+        "e": false,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": true,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": false,
+        "n": true,
+        "s": true,
+        "visited": true,
+        "w": true
       },
       {
         "e": false,
@@ -32,10 +60,40 @@
         "s": false,
         "visited": true,
         "w": false
+      }
+    ],
+    [
+      {
+        "e": false,
+        "n": false,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": true,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": true,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": false,
+        "visited": true,
+        "w": true
       },
       {
         "e": false,
-        "n": true,
+        "n": false,
         "s": false,
         "visited": true,
         "w": true
@@ -46,6 +104,64 @@
         "s": true,
         "visited": true,
         "w": false
+      },
+      {
+        "e": false,
+        "n": true,
+        "s": true,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": true,
+        "visited": true,
+        "w": false
+      }
+    ],
+    [
+      {
+        "e": true,
+        "n": false,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": false,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": false,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": true,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": false,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": true
       },
       {
         "e": false,
@@ -73,190 +189,9 @@
       {
         "e": true,
         "n": false,
-        "s": false,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": true,
-        "n": true,
-        "s": false,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": true,
-        "n": false,
-        "s": false,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": true,
-        "n": false,
-        "s": false,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": false,
-        "n": true,
-        "s": false,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": true,
-        "n": true,
-        "s": false,
-        "visited": true,
-        "w": false
-      },
-      {
-        "e": true,
-        "n": false,
-        "s": false,
-        "visited": true,
-        "w": true
-      }
-    ],
-    [
-      {
-        "e": true,
-        "n": false,
         "s": true,
         "visited": true,
         "w": true
-      },
-      {
-        "e": true,
-        "n": false,
-        "s": false,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": false,
-        "n": false,
-        "s": false,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": false,
-        "n": false,
-        "s": true,
-        "visited": true,
-        "w": false
-      },
-      {
-        "e": true,
-        "n": false,
-        "s": true,
-        "visited": true,
-        "w": false
-      },
-      {
-        "e": true,
-        "n": false,
-        "s": false,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": false,
-        "n": false,
-        "s": true,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": true,
-        "n": false,
-        "s": true,
-        "visited": true,
-        "w": false
-      }
-    ],
-    [
-      {
-        "e": false,
-        "n": true,
-        "s": false,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": true,
-        "n": false,
-        "s": true,
-        "visited": true,
-        "w": false
-      },
-      {
-        "e": true,
-        "n": false,
-        "s": true,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": false,
-        "n": true,
-        "s": false,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": true,
-        "n": true,
-        "s": false,
-        "visited": true,
-        "w": false
-      },
-      {
-        "e": false,
-        "n": false,
-        "s": true,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": true,
-        "n": true,
-        "s": false,
-        "visited": true,
-        "w": false
-      },
-      {
-        "e": true,
-        "n": true,
-        "s": false,
-        "visited": true,
-        "w": true
-      }
-    ],
-    [
-      {
-        "e": false,
-        "n": false,
-        "s": false,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": false,
-        "n": true,
-        "s": true,
-        "visited": true,
-        "w": false
-      },
-      {
-        "e": true,
-        "n": true,
-        "s": false,
-        "visited": true,
-        "w": false
       },
       {
         "e": true,
@@ -285,115 +220,6 @@
         "s": true,
         "visited": true,
         "w": true
-      },
-      {
-        "e": true,
-        "n": false,
-        "s": true,
-        "visited": true,
-        "w": false
-      }
-    ],
-    [
-      {
-        "e": false,
-        "n": false,
-        "s": true,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": true,
-        "n": true,
-        "s": false,
-        "visited": true,
-        "w": false
-      },
-      {
-        "e": false,
-        "n": false,
-        "s": true,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": true,
-        "n": false,
-        "s": true,
-        "visited": true,
-        "w": false
-      },
-      {
-        "e": true,
-        "n": true,
-        "s": false,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": false,
-        "n": false,
-        "s": true,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": false,
-        "n": true,
-        "s": true,
-        "visited": true,
-        "w": false
-      },
-      {
-        "e": true,
-        "n": true,
-        "s": false,
-        "visited": true,
-        "w": false
-      }
-    ],
-    [
-      {
-        "e": false,
-        "n": true,
-        "s": false,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": true,
-        "n": false,
-        "s": true,
-        "visited": true,
-        "w": false
-      },
-      {
-        "e": false,
-        "n": true,
-        "s": true,
-        "visited": true,
-        "w": true
-      },
-      {
-        "e": false,
-        "n": true,
-        "s": true,
-        "visited": true,
-        "w": false
-      },
-      {
-        "e": false,
-        "n": false,
-        "s": true,
-        "visited": true,
-        "w": false
-      },
-      {
-        "e": false,
-        "n": true,
-        "s": false,
-        "visited": true,
-        "w": false
       },
       {
         "e": true,
@@ -426,6 +252,57 @@
         "w": false
       },
       {
+        "e": true,
+        "n": false,
+        "s": true,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": false,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": true,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": false,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": true,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": false,
+        "visited": true,
+        "w": true
+      }
+    ],
+    [
+      {
+        "e": false,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
         "e": false,
         "n": true,
         "s": true,
@@ -435,6 +312,129 @@
       {
         "e": false,
         "n": true,
+        "s": true,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": true,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": false,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": true,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": true,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": false,
+        "visited": true,
+        "w": true
+      }
+    ],
+    [
+      {
+        "e": false,
+        "n": false,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": false,
+        "n": true,
+        "s": true,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": true,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": false,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": true,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": false,
+        "n": true,
+        "s": false,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": false,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": true,
+        "n": false,
+        "s": false,
+        "visited": true,
+        "w": true
+      }
+    ],
+    [
+      {
+        "e": false,
+        "n": false,
+        "s": true,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": true,
+        "n": true,
+        "s": true,
+        "visited": true,
+        "w": false
+      },
+      {
+        "e": false,
+        "n": false,
+        "s": true,
+        "visited": true,
+        "w": true
+      },
+      {
+        "e": false,
+        "n": false,
         "s": true,
         "visited": true,
         "w": false
@@ -470,7 +470,7 @@
     ]
   ],
   "start_point": [
-    2,
-    0
+    5,
+    6
   ]
 }
